@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+    <title>LOST AND FOUND</title>
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <img src="assets/logo.png" alt="Logo">
+        </div>
+        <div class="search-wrapper">
+            <form class="search-bar">
+                <i class="fas fa-search"></i>
+                <input type="text" placeholder="Search Item..." />
+            </form>
+        </div>
+        <div class="logo-usm">
+            <img src="assets/usmlogo.png" alt="Logo">
+        </div>
+        <div class="triangle-dev">
+            <img src="assets/triangle.png" alt="Design">
+        </div>
+    </nav>
+
+    <div class="banner">
+        <img src="assets/banner.svg" alt="Banner">
+    </div>
+
+    <h1>LOST AND FOUND SYSTEM</h1>
+
+    <section class="form-sections">
+        <div class="form-container lost">
+            <h2>LOST Section</h2>
+            <form>
+                <label for="lost-item">LOST ITEM <span>*</span></label>
+                <input type="text" id="lost-item" placeholder="Enter Item">
+    
+                <label for="lost-location">LOCATION <span>*</span></label>
+                <input type="text" id="lost-location" placeholder="Enter Item">
+    
+                <button type="submit" class="submit-lost">SUBMIT LOST ITEM</button>
+            </form>
+        </div>
+        <div class="form-container found">
+            <h2>FOUND Section</h2>
+            <form>
+                <label for="found-item">FOUND ITEM <span>*</span></label>
+                <input type="text" id="found-item" placeholder="Enter Item">
+    
+                <label for="found-location">LOCATION <span>*</span></label>
+                <input type="text" id="found-location" placeholder="Enter Item">
+    
+                <button type="submit" class="submit-found">SUBMIT FOUND ITEM</button>
+            </form>
+        </div>
+    </section>
+
+    <div class="quote">
+        <p>"Honesty is the first <br> chapter in the book of <br> <span> wisdom. </span>"</p>
+        <h6>- Thomas Jefferson</h6>
+    </div>
+
+    <div class="tutorial">
+        <h2>STEP BY STEP PROCESS</h2>
+        <h3>
+            • Search for the Item if it is already in the database / Find the Item at the Recent Item List <br>
+            • IF NOT: Enter the Lost OR Found Item Details above (it will redirect to another page asking for more info) <br>
+            • IF FOUND: Leave the Item at the Office of Student Affairs <br>
+            • IF LOST: Wait for an email notifying that someone already found your Item <br>
+        </h3>
+    </div>
+</body>
+</html>
